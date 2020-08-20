@@ -1,9 +1,13 @@
 # Create network
 
 ## 1- Network status
+	
+	```
 	docker network ls
-
-	docker network inspect 
+	```
+	```
+	docker network inspect
+	```
 
 ## 2- Create docker network
 	
