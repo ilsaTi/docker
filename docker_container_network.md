@@ -2,12 +2,12 @@
 
 ## 1- Network status
 	
-	Some basic Git commands are:
-	```
-	git status
-	git add
-	git commit
-	```
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
 
 	```
 	docker network ls
