@@ -1,20 +1,18 @@
 # Create network
 
 ## 1- Network status
-	
-Some basic Git commands are:
+
+You can start by listing the the network with the following command:
 ```
-git status
-git add
-git commit
+docker network ls
 ```
 
-	```
-	docker network ls
-	```
-	```
-	docker network inspect
-	```
+Notice the driver. Let's use  bridge as driver in the next steps.
+
+
+```
+docker network inspect bridge
+```
 
 ## 2- Create docker network
 	
