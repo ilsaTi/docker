@@ -15,8 +15,13 @@ docker network inspect bridge
 ```
 
 ## 2- Create docker network
-	
-	docker network create --subnet=IP_RANG --driver=DRIVER name
+
+The network creation is made executing the command `docker network create --driver=DRIVER --subnet=IP_RANGE network_name`. As example:
+
+```
+docker network create --subnet=192.168.0.1/24 --driver=bridge newNetwork
+```
+
 
 ## 3- Create docker container
 
