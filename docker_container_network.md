@@ -1,4 +1,7 @@
-# Create network
+# Docker container networks
+
+We provide here steps to create Docker network for specific containers. It can be used to secure communication between a group of containers.
+
 
 ## 1- Network status
 
